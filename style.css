@@ -1,0 +1,178 @@
+@import "https://fonts.googleapis.com/css?family=Roboto:400,500,700&subset=cyrillic-ext";
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+html {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+q, blockquote {
+  quotes: none;
+}
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+a img {
+  border: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+.btn {
+  font-size: 15px;
+  font-weight: 500;
+  color: #7d7d7d;
+  background-color: #fff;
+  border: 1px solid #cfcfcf;
+  border-radius: 3px;
+  line-height: 30px;
+  padding: 0 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.btn--first {
+  border-right: none;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.btn--last {
+  border-left: none;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.btn--no-border {
+  border-radius: 0;
+}
+.btn--red {
+  color: #fff;
+  background-color: #dd5555;
+  border: none;
+}
+.btn--red:hover {
+  opacity: .9;
+}
+.btn:focus {
+  outline: none;
+}
+.btn:hover {
+  background-color: #dd5555;
+  color: #fff;
+  border-color: #dd5555;
+}
+
+.form {
+  margin-bottom: 30px;
+}
+.form__input {
+  font-size: 16px;
+  font-weight: 500;
+  color: #7d7d7d;
+  background-color: #f2f2f2;
+  border: 1px solid #cfcfcf;
+  border-radius: 2px;
+  line-height: 30px;
+  padding-left: 10px;
+}
+.form__btn {
+  margin-left: 15px;
+}
+
+.list {
+  text-align: left;
+  margin-bottom: 30px;
+}
+.list__item {
+  margin-bottom: 14px;
+}
+.list__item--done {
+  text-decoration: line-through;
+}
+.list__input {
+  background-color: #ebebeb;
+  border-radius: 2px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+}
+
+.app {
+  padding-top: 40px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  background-color: #fff;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  padding: 25px;
+  margin-top: 60px;
+  display: inline-block;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 31px;
+  font-weight: 600;
+  color: #dd5555;
+  margin-bottom: 30px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+form,
+input,
+button,
+textarea,
+html,
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+html,
+body {
+  font-size: 16px;
+  color: #7d7d7d;
+  height: 100%;
+  min-height: 100%;
+  min-width: 300px;
+  background-color: #ebebeb;
+  text-align: center;
+}

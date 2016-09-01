@@ -1,0 +1,45 @@
+.btn {
+	@include font(15px, 500, #7d7d7d);
+	background-color: #fff;
+	border: 1px solid #cfcfcf;
+	border-radius: 3px;
+	line-height: 30px;
+	padding: 0 20px;
+	text-transform: uppercase;
+	cursor: pointer;
+
+	&--first {
+		border-right: none;
+		border-top-right-radius: 0;
+		border-bottom-right-radius: 0;
+	}
+
+	&--last {
+		border-left: none;
+		border-top-left-radius: 0;
+		border-bottom-left-radius: 0;
+	}
+
+	&--no-border {
+		border-radius: 0;
+	}
+
+	&--red {
+		color: #fff;
+		background-color: #dd5555;
+		border: none;
+		&:hover {
+			opacity: .9;
+		}
+	}
+
+	&:focus {
+		outline: none;
+	}
+
+	&:hover {
+		background-color: #dd5555;
+		color: #fff;
+		border-color: #dd5555;
+	}
+}
